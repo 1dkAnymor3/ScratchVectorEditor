@@ -9,12 +9,22 @@
     </head>
     <body>
         <div class="main-part">
-            <span style="display: block;">
+            <span style="display: flexbox; align-items: center;">
                 <h1 class="large-boi-title">Scratch Vector Editor</h1>
-                    <button type="button" onclick="console.log('click a!')">Open Vector +</button>
-                    <button type="button" onclick="console.log('click b!')">Open Raster +</button>
-                    <button type="button" onclick="console.log('click c!')">Create New</button>
+                <p class="create-line">Create
+                    <button id="openVec" class="open-button" type="button" onclick="console.log('click a!')">
+                        <img src="../src/img/image icon.svg" alt="vector image icon">&nbsp;
+                        <span style="margin-left: 5px;">Vector</span>
+                    </button>
+                    / <button id="openBit" class="open-button" type="button" onclick="console.log('click b!')">
+                        <img style="image-rendering: pixelated;" src="../src/img/image icon.svg" alt="bitmap image icon">&nbsp;
+                        <span style="margin-left: 5px;">Bitmap</span>
+                    </button>
+                    +
+                </p>
+                <button id="newFile" type="button" onclick="console.log('click c!')">Create New</button>
             </span>
         </div>
+        <script src="../src/js/title-page.js"></script>
     </body>
 </html>
