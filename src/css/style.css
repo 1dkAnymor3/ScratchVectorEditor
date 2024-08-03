@@ -1,0 +1,57 @@
+* {
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #111111;
+    color: #FFFFFF;
+}
+.main-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-line {
+    text-align: center;
+    font-size: 18px;
+}
+
+.open-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF4C4C;
+    color: white;
+    font-weight: bold;
+}
+
+#newFile {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #2E2E2E;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+
+#newFile:hover {
+    background-color: #111111;
+    border: 5px solid #FF4C4C;
+    margin: 0px;
+}
+
+#newFile:active {
+    background-color: #FF4C4C;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
